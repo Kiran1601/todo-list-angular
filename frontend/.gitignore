@@ -1,0 +1,61 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Node.js
+/node_modules
+/npm-debug.log
+/yarn-error.log
+/pnpm-debug.log
+
+# Angular specific files
+/src/environments/environment.ts
+/src/environments/environment.prod.ts
+
+# Logs
+*.log
+logs
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+
+# Generated files
+/.angular/cache
+/.angular
+/.cache
+
+# IDE specific files
+/.idea
+/.vscode
+/.DS_Store
+/.eslintcache
+
+# Dependency directories
+/node_modules
+jspm_packages
+
+# Typescript
+*.tsbuildinfo
+
+# Compiled TypeScript
+*.tsbuildinfo
+*.ngfactory.ts
+*.ngstyle.ts
+*.map
+
+# Dependency directories
+bower_components
+
+# Miscellaneous
+/.vscode/*
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Karma coverage
+/coverage
