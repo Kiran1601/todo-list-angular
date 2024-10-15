@@ -1,0 +1,11 @@
+/* Add your styles here */
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
